@@ -12,10 +12,9 @@ function TripDetails() {
 
   const navigate = useNavigate();
 
-  useEffect(() => {
-    fetchTrip();
-  }, []);
-
+ useEffect(() => {
+  fetchTrip();
+}, [id]);
   const fetchTrip = async () => {
     try {
       const token = localStorage.getItem("token");
