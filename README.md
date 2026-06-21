@@ -5,6 +5,15 @@
 AI Travel Planner is a full-stack web application that helps users generate personalized travel plans using Gemini AI. Users can create trips by providing a destination, duration, budget, and interests. The application generates a complete travel plan including itinerary, hotel recommendations, budget estimation, and packing list.
 
 ---
+## Live Demo
+
+### Frontend
+
+Frontend URL: https://ai-travel-planner-frontend-ef77.onrender.com
+
+### Backend API
+
+Backend URL: https://ai-travel-planner-backend-olrl.onrender.com
 
 ## Features
 
@@ -54,6 +63,23 @@ This helps users understand their trip at a glance without reading the entire it
 * React.js
 * React Router DOM
 * CSS
+## Deployment
+
+### Frontend
+
+* Hosted on Render
+
+### Backend
+
+* Hosted on Render
+
+### Database
+
+* MongoDB Atlas
+
+### AI Service
+
+* Google Gemini API
 
 ### Backend
 
