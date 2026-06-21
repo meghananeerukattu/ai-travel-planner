@@ -14,7 +14,7 @@ const fetchTrips = async () => {
 try {
 const token = localStorage.getItem("token");
   const response = await fetch(
-    "http://localhost:5000/api/trips",
+    "https://ai-travel-planner-backend-olrl.onrender.com/api/trips",
     {
       headers: {
         Authorization: `Bearer ${token}`,
